@@ -6,6 +6,11 @@
   %instrument = "Piano"
   composer = "Kevin L. Biewesch"
   %arranger = "Kevin L. Biewesch"
+  tagline = \markup { \center-column {
+    \with-url #"https://youtube.com/@VinLudens"
+    \line { "Engraving with Lilypond" $(lilypond-version) \char ##x2014 "https://youtube.com/@VinLudens" }
+    \line { \small \italic { August 09 2019 } }
+  } }
 }
 
 #(set-global-staff-size 18.5)
