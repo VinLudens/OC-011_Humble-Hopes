@@ -19,7 +19,7 @@ dynamics = {
   % \override TextScript.extra-offset = #'(0 . 1)
   s1\mp |
   s1\> |
-  s1\mp |
+  s1-\tweak X-offset #-0.3 -\mp |
   s2.\> s4\! |
   s2\< s2\mp |
   s1 | 
@@ -27,14 +27,14 @@ dynamics = {
   s1 | 
   s1\p |
   s1\< |
-  s1\mp |
+  s1-\tweak X-offset #-0.3 -\mp |
   s1 |
   s1\crescPoco | s1 | 
   s1\mf |
   s1\fp |
   s1\mp |
   s1\> |
-  s1\mp |
+  s1-\tweak X-offset #-0.25 -\mp |
   s2.\> s4\! |
   s2\< s2\mp |
   s1 | 
@@ -42,7 +42,7 @@ dynamics = {
   s1 | 
   s1\p | s1 | 
   s2 s2\rall |
-  s2. s4\atempo| 
+  s2. s4-\tweak X-offset #-0.3 -\atempo| 
   s4 s2.\rall |
   s1\p | 
   
